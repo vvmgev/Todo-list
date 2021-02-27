@@ -1,0 +1,46 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: 4px 4px 11px rgba(0, 133, 255, 0.11);
+  border-radius: 24px;
+  margin-top: 24px;
+  background-color: #fff;
+}
+.task__info {
+  display: flex;
+  flex-direction: column;
+}
+.task__status {
+  min-width: 100px;
+  border-radius: 8px;
+  max-width: 98px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.task__status_pending {
+  background-color: #FC9700;
+}
+.task__status_complete {
+  background-color: #03BC90;
+}
+.task__text {
+  color: #020202;
+  font-size: 18px;
+  font-weight: 300;
+}
+.task__button {
+  cursor: pointer;
+  background-color: #0085FF;
+  color: #fff;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+.task__button_disable {
+  cursor: not-allowed;
+  background-color: #C7C7C7;
+}
+/*# sourceMappingURL=task.css.map */
